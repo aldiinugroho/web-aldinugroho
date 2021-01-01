@@ -5,3 +5,6 @@
 
 - redirect 404
     > https://morioh.com/p/b6eda2ed88ae <br>
+
+- unique key
+    > https://stackoverflow.com/questions/28329382/understanding-unique-keys-for-array-children-in-react-js <br>
