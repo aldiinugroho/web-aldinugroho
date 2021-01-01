@@ -8,8 +8,8 @@ const Nav = () => {
         const URL = testdata_tag
         return (
             <div className={navcss.nav_tagConf}>
-                {URL.map(tag => (
-                    <a href="#" className={navcss.nav_tag} style={{background: tag.color}}>{tag.tag_name}</a>
+                {URL.map((tag,idx) => (
+                    <a href="#" key={idx} className={navcss.nav_tag} style={{background: tag.color}}>{tag.tag_name}</a>
                 ))}
             </div>
         )

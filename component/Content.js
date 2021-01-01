@@ -8,8 +8,8 @@ const Content = () => {
         const URL = testdata_satu
         return (
             <div>
-                {URL.map(data => (
-                    <div className={cont.cont_container}>
+                {URL.map((data,idx) => (
+                    <div key={idx} className={cont.cont_container}>
                         <h3>
                             <a href="/detail">{data.title}</a>
                         </h3>
