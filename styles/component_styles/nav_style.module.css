@@ -4,6 +4,8 @@
     width: 20rem;
     height: 100%;
     overflow-x: hidden;
+    /* consider to active left */
+    left: 0;
 }
 
 .nav_tag{
@@ -20,13 +22,16 @@
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
+    /* background-color: #232323; */
+    border-radius: 5px;
+    /* padding: 0.5rem; */
 }
 
 .nav_mine{
     display: flex;
     flex-direction: column;
-    margin-top: 4rem;
-    margin-bottom: 4rem;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
 }
 
 .nav_mine>a{

@@ -36,8 +36,8 @@ const Nav = () => {
                 </div>
                 <div className={navcss.nav_dataprof}>
                     <div>Aldi Nugroho</div>
-                    <div>Binus University</div>
-                    <div>Jakarta</div>
+                    {/* <div>Binus University</div> */}
+                    <div>Jakarta, Indonesia</div>
                 </div>
             </div>
         </div>

@@ -1,8 +1,11 @@
 import React from "react"
+import detailcss from "../styles/detail.module.css"
 
 const detail = () => {
     return (
-        <div>for Detail</div>
+        <div className={detailcss.detail_main}>
+            for detail
+        </div>
     )
 }
 
